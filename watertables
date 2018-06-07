@@ -1,0 +1,204 @@
+<html>
+
+<center><img src="https://1.bp.blogspot.com/-BCGnPV41lxw/WiXALmgsRSI/AAAAAAAACf0/AQt5W_vISSgRk3A1oPP2pPQaeKHFT7mVgCLcBGAs/s1600/hydro_final.jpg" height="auto" width="97%"></center>
+
+<br>
+<hr>
+<br>
+
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+      google.charts.setOnLoadCallback(drawTable2);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'River Name');
+        data.addColumn('number', 'Approximate Length Within North Carolina (miles)');
+        data.addColumn('string', 'Pronunciation');
+        data.addColumn('string', 'Cities');
+        data.addRows([
+          ['Alligator',  {v: 46.7}, '-', '-'],
+          ['Ararat',   {v: 33.0},  'AIR-a-rat', 'Mount Airy '],
+          ['Bay', {v: 18.2}, '-', 'Bayboro, Stonewall, Vandemere'],
+          ['Black', {v: 50.0}, '-', 'Ingold, Ivanhoe'],
+          ['Broad',   {v: 52.4},  '-', '-'],
+          ['Brunswick',   {v: 6.0},  '-', 'Navassa'],
+          ['Calabash',  {v: 7.3}, 'CALA-bash', 'Calabash'],
+          ['Cane',   {v: 36.4},  '-', '-'],
+          ['Cape Fear', {v: 202.0}, '-', 'Lillington, Erwin, Fayetteville, Elizabethtown, Wilmington, Bald Head Island'],
+          ['Cashie',  {v: 55.0}, 'kuh-SHY', 'Windsor'],
+          ['Catawba',   {v: 149.4},  'ka-TAW-ba', 'Old Fort, Morganton, Hickory, Mount Holly, Belmont'],
+          ['Chattooga', {v: 10.7}, 'cha-TOO-ga', 'Cashiers'],
+          ['Cheoah',  {v: 20.0}, 'CHI-oh-wa', 'Robbinsville'],
+          ['Chowan',   {v: 48.3},  'cho-WAHN', 'Winton'],
+          ['Cullasaja', {v: 5.0}, 'COOL-uh-SAY-ja', 'Franklin, Highlands'],
+          ['Dan',  {v: 98.7}, '-', 'Danbury, Madison, Eden'],
+          ['Davidson',  {v: 10.6}, '-', '-'],
+          ['Deep',   {v: 125.0},  '-', 'Randleman, Franklinville, Ramseur'],
+          ['Elk', {v: 14.7}, '-', 'Banner Elk'],
+          ['Eno',  {v: 40.0}, '-', 'Hillsborough, North Durham'],
+          ['First Broad', {v: 60.0},  '-', 'Lawndale, Shelby'],
+          ['Fisher', {v: 42.2}, '-', '-'],
+          ['Flat',  {v: 5.7}, '-', '-'],
+          ['French Broad',  {v: 114.2}, '-', 'Hot Springs, Marshall, Asheville, Mills River, Etowah, Brevard'],
+          ['Green',   {v: 52.0},  '-', '-'],
+          ['Haw', {v: 110.0}, 'HAH', 'Altamahaw-Ossipee, Burlington, Graham, Saxapahaw'],
+          ['Hiwassee',  {v: 57.7}, 'high-WAHS-ee', 'Murphy'],
+          ['Horsepasture',   {v: 15.1},  'HORSE-pass-chur', '-'],
+          ['Hungry', {v: 8.5}, '-', '-'],
+          ['Hyco',  {v: 4.9}, 'HIGH-co', '-'],
+          ['Johns',   {v: 27.3},  '-', '-'],
+          ['Linville', {v: 30.0}, 'LINN-vill', 'Linville'],
+          ['Little (Perquimans/Pasquotank Counties)', {v: 19.9}, '-', '-'],
+          ['Little (Moore/Cumberland/Harnett Counties)', {v: 67.7}, '-', 'Whispering Pines, Fort Bragg'],
+          ['Little (Durham County)', {v: 12.6}, '-', '-'],
+          ['Little (Transylvania County)', {v: 19.0}, '-', '-'],
+          ['Little (Burke County)', {v: 5.1}, '-', '-'],
+          ['Little (Franklin/Wake/Johnston/Wayne Counties)', {v: 82.8}, '-', 'Youngsville, Goldsboro'],
+          ['Little (Randolph/Montgomery/Richmond Counties)', {v: 60.0}, '-', 'Asheboro'],
+          ['Little (Alleghany County)', {v: 30.6}, '-', 'Sparta'],
+          ['Little Tennessee', {v: 48.4}, '-', 'Franklin'],
+          ['Lockwood Folly',  {v: 14.2}, 'LOCK-wood-FA-lee', '-'],
+          ['Lumber',   {v: 80.0},  'LUM-burr', 'Pembroke, Lumberton, Boardman, Fair Bluff'],
+          ['Meherrin', {v: 45.6}, 'ma-HAIR-in', 'Murfreesboro'],
+          ['Mills',  {v: 12.1}, '-', 'Mills River'],
+          ['Mitchell',   {v: 21.5},  '-', '-'],
+          ['Nantahala', {v: 40.0}, 'NAN-ta-HAY-la', '-'],
+          ['Neuse',   {v: 275.0},  'NOOSE', 'Smithfield, Goldsboro, Kinston, New Bern'],
+          ['New (Northwestern NC)',  {v: 4.5}, '-', '-'],
+          ['New (Southeastern NC)',   {v: 50.0},  '-', 'Jacksonville'],
+          ['Newport', {v: 12.0}, '-', 'Newport'],
+          ['Nolichucky',  {v: 9.9}, 'NOLA-chuck-ee', '-'],
+          ['North',   {v: 18.0},  '-', '-'],
+          ['North Toe', {v: 63.3}, '-', 'Spruce Pine'],
+          ['Northeast Cape Fear',  {v: 130.0}, '-', 'Castle Hayne, Wilmington'],
+          ['Northwest',   {v: 18.0},  '-', '-'],
+          ['Oconaluftee',   {v: 17.9},  'o-CON-a-LUFF-tee', 'Cherokee'],
+          ['Pamlico',   {v: 30.5},  'PAM-li-co', 'Washington, Aurora'],
+          ['Pasquotank', {v: 40.6}, 'PASS-kwo-tank', 'Elizabeth City'],
+          ['Pee Dee',  {v: 57.1}, '-', '-'],
+          ['Perquimans',   {v: 30.7},  'per-KWI-mens', 'Winfall, Hertford'],
+          ['Pigeon', {v: 55.6}, 'PI-jun', 'Clyde, Canton'],
+          ['Pungo',  {v: 30.6}, 'PUN-go', 'Belhaven'],
+          ['Reddies',   {v: 15.5},  'RED-ees', 'North Wilkesboro'],
+          ['Roanoke', {v: 130.0}, 'ROW-a-noke', 'Roanoke Rapids, Halifax, Williamston, Jamesville, Plymouth'],
+          ['Roaring',  {v: 11.9}, '-', '-'],
+          ['Rocky',   {v: 95.0},  '-', 'Mooresville, Concord, Fairview'],
+          ['Scuppernog', {v: 20.2}, 'SCUP-er-nog', 'Columbia'],
+          ['Shalotte',  {v: 7.2}, 'sha-LOAT', 'Shalotte'],
+          ['Smith',   {v: 5.1},  '-', 'Eden'],
+          ['South', {v: 84.0}, '-', 'Falcon, Autryville'],
+          ['South Fork (Catawba)', {v: 48.5}, '-', 'Lincolnton, High Shoals, McAdenville, Cramerton'],
+          ['South Toe', {v: 32.5}, '-', '-'],
+          ['Swannanoa',  {v: 22.0}, 'swan-na-NO-uh', 'Asheville, Black Mountain'],
+          ['Tar',   {v: 215.0},  '-', 'Louisburg, Rocky Mount, Tarboro, Princeville, Greenville'],
+          ['Toxaway', {v: 7.5}, 'TOCKS-away', '-'],
+          ['Trent',  {v: 100.0}, '-', 'Trenton, Pollocksville, River Bend, Trent Woods, New Bern'],
+          ['Tuckasegee',   {v: 60.0},  'tuck-a-SEE-jee', 'Cullowhee, Dillsboro, Bryson City'],
+          ['Uwharrie', {v: 60.0}, 'you-WARR-ee', 'Trinity'],
+          ['Valley', {v: 40.0}, '-', 'Topton, Andrews, Marble, Murphy'],
+          ['Waccamaw',  {v: 44.6}, 'WOK-a-ma', '-'],
+          ['Watauga',   {v: 25.7},  'wa-TAW-ga', '-'],
+          ['White Oak', {v: 40.0}, '-', 'Swansboro'],
+          ['Wiccacon',  {v: 21.0}, 'WICK-ca-conn', '-'],
+          ['Yadkin',  {v: 215.0}, 'YAD-ken', 'Wilkesboro, North Wilkesboro, Ronda, Elkin-Jonesville, Clemmons']
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('rivers'));
+
+        table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
+      }
+
+
+
+
+
+
+
+      function drawTable2() {
+
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('number', 'Acreage');
+        data.addColumn('string', 'Type');
+        data.addColumn('string', 'Pronunciation');
+        data.addColumn('string', 'Counties');
+        data.addColumn('number', 'Mean Depth');
+        data.addColumn('number', 'Max Depth');
+        data.addColumn('number', 'Surface Elevation');
+        data.addColumn('number', 'Shoreline Miles');
+        data.addColumn('number', 'Residence Time (Days)');
+        data.addColumn('string', 'Settlements');
+        data.addColumn('number', 'Year');
+        data.addColumn('string', 'Owner');
+
+        data.addRows([
+          ['Albemarle Sound', {v: 403795}, 'Estuarine', 'ALBA-marr-ill', 'Bertie, Camden, Chowan, Currituck, Dare, Pasquotank, Perquimans, Tyrrell, Washington', {v: 15}, {v: 18}, {v: 0}, {v: 500}, {v: 45}, 'Albemarle Beach, Edenton, Mackeys, Pea Ridge, Point Harbor, Powells Point', {v: 0, f: '-'}, '-'],
+          ['Back Sound', {v: 11907}, 'Estuarine', '-', 'Carteret', {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, 'Harkers Island', {v: 0, f: '-'}, '-'],
+          ['Bogue Sound', {v: 24832}, 'Estuarine', 'BOAG', 'Carteret', {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, 'Atlantic Beach, Broad Creek, Emerald Isle, Indian Beach, Morehead City, Pine Knoll', {v: 0, f: '-'}, '-'],
+          ['Core Sound', {v: 69604}, 'Estuarine', '-', 'Carteret', {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0}, {v: 0, f: '-'}, {v: 0, f: '-'}, 'Atlantic, Sealevel, Stacy', {v: 0, f: '-'}, '-'],
+          ['Croatan Sound', {v: 24718}, 'Estuarine', 'CROW-a-tan', 'Dare', {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0}, {v: 0, f: '-'}, {v: 0, f: '-'}, 'Manns Harvor', {v: 0, f: '-'}, '-'],
+          ['Currituck Sound', {v: 76242}, 'Estuarine', 'KERR-eh-TUCK', 'Currituck, Dare', {v: 5}, {v: 13}, {v: 0}, {v: 0, f: '-'}, {v: 270}, 'Duck, Grandy, Harbinger, Jarvisburg', {v: 0, f: '-'}, '-'],
+          ['Pamlico Sound', {v: 1155500}, 'Estuarine', 'PAM-lih-CO', 'Carteret, Dare, Hyde, Pamlico', {v: 16}, {v: 24}, {v: 0}, {v: 0, f: '-'}, {v: 330}, 'Avon, Buxton, Engelhard, Frisco, Hatteras, Middletown, Portsmouth, Ocracoke, Salvo, Stumpy Point, Waves', {v: 0, f: '-'}, '-'],
+          ['Roanoke Sound', {v: 28534}, 'Estuarine', 'ROW-uh-NOKE', 'Dare', {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 0, f: '-'}, 'Manteo, Wanchese', {v: 0, f: '-'}, '-'],
+          ['Great Lake', {v: 2965}, 'Natural', '-', 'Craven', {v: 9}, {v: 00000}, {v: 23}, {v: 8}, {v: 86}, '-', {v: 0, f: '-'}, '-'],
+          ['Lake Mattamuskeet', {v: 40276}, 'Natural', 'MATTA-mus-KEET', 'Hyde', {v: 2.5}, {v: 5}, {v: 3}, {v: 56.5}, {v: 880}, 'New Holland', {v: 0, f: '-'}, '-'],
+          ['Lake Phelps', {v: 15814}, 'Natural', 'FELPS', 'Washington, Tyrrell', {v: 4}, {v: 9}, {v: 7}, {v: 19}, {v: 983}, '-', {v: 0, f: '-'}, '-'],
+          ['Pungo Lake', {v: 2223}, 'Natural', '-', 'Hyde, Washington', {v: 17}, {v: 0, f: '-'}, {v: 0, f: '-'}, {v: 8}, {v: 723}, '-', {v: 0, f: '-'}, '-'],
+          ['Lake Waccamaw', {v: 8938}, 'Natural', 'WAKA-mah', 'Columbus', {v: 7.5}, {v: 11}, {v: 43}, {v: 14}, {v: 223}, 'Lake Waccamaw Township', {v: 0, f: '-'}, '-'],
+          ['Badin Lake', {v: 5350}, 'Reservoir', 'BAY-din', 'Davidson, Montgomery, Rowan, Stanly', {v: 90}, {v: 190}, {v: 540}, {v: 116}, {v: 0, f: '-'}, 'Badin', {v: 1917, f: '1917'}, 'Alcoa'],
+          ['Belews Lake', {v: 3846}, 'Reservoir', 'beh-LOOS', 'Forsyth, Guilford, Rockingham, Stokes', {v: 35}, {v: 130}, {v: 732}, {v: 37}, {v: 588}, 'Belews Creek', {v: 1973, f: '1973'}, 'Duke'],
+          ['Lake Chatuge', {v: 7200}, 'Reservoir', 'sha-TOOG', 'Clay', {v: 46}, {v: 145}, {v: 1923}, {v: 69}, {v: 314}, '-', {v: 1942, f: '1942'}, 'TVA'],
+          ['Falls Lake', {v: 12410}, 'Reservoir', '-', 'Durham, Granville, Wake', {v: 108}, {v: 0, f: '-'}, {v: 243}, {v: 111}, {v: 692}, 'Falls, New Light, Stony Hill', {v: 1983, f: '1983'}, 'USACE'],
+          ['Fontana Lake', {v: 10230}, 'Reservoir', 'fawn-TAN-a', 'Graham, Swain', {v: 135}, {v: 440}, {v: 1707}, {v: 238}, {v: 0, f: '-'}, 'Fontana Dam', {v: 1944, f: '1944'}, 'TVA'],
+          ['Lake Gaston', {v: 20300}, 'Reservoir', 'GAS-tunn', 'Halifax, Northampton, Warren', {v: 40}, {v: 96}, {v: 201}, {v: 350}, {v: 0, f: '-'}, 'Elams, Henrico', {v: 1963, f: '1963'}, 'Dominion'],
+          ['Lake Glenville', {v: 1470}, 'Reservoir', '-', 'Jackson', {v: 0, f: '-'}, {v: 121}, {v: 3492}, {v: 26}, {v: 0, f: '-'}, 'Erastus, Glenville', {v: 1941, f: '1941'}, 'Alcoa'],
+          ['Harris Lake', {v: 4100}, 'Reservoir', '-', 'Chatham, Wake', {v: 17}, {v: 59}, {v: 230}, {v: 43}, {v: 414}, '-', {v: 1983, f: '1983'}, 'CPAL'],
+          ['Lake Hickory', {v: 4223}, 'Reservoir', '-', 'Alexander, Burke, Catawba, Caldwell', {v: 40}, {v: 101}, {v: 939}, {v: 53}, {v: 29}, 'Bethlehem, Hickory, Northlakes', {v: 1927, f: '1927'}, 'Duke'],
+          ['High Rock Lake', {v: 15180}, 'Reservoir', '-', 'Davidson, Rowan', {v: 30}, {v: 52}, {v: 614}, {v: 365}, {v: 26}, 'Cotton Grove, Feezor, Southmont', {v: 1928, f: '1928'}, 'Alcoa'],
+          ['Lake Hiwassee', {v: 6275}, 'Reservoir', 'hi-WASS-ee', 'Cherokee', {v: 142}, {v: 309}, {v: 1476}, {v: 163}, {v: 81}, '-', {v: 1940, f: '1940'}, 'TVA'],
+          ['Hyco Lake', {v: 3750}, 'Reservoir', 'HIGH-co', 'Caswell, Person', {v: 21}, {v: 30}, {v: 412}, {v: 160}, {v: 0, f: '-'}, 'Williamsville', {v: 1965, f: '1965'}, 'CPAL'],
+          ['Lake James', {v: 6812}, 'Reservoir', '-', 'Burke, McDowell', {v: 65}, {v: 150}, {v: 1211}, {v: 150}, {v: 176}, 'Nebo', {v: 1923, f: '1923'}, 'Duke'],
+          ['Jordan Lake', {v: 13940}, 'Reservoir', '-', 'Chatham, Durham', {v: 14}, {v: 38}, {v: 224}, {v: 83}, {v: 660}, 'Bells, Seaforth, Wilsonville', {v: 1982, f: '1982'}, 'USACE'],
+          ['Kerr Lake', {v: 48900}, 'Reservoir', 'CAR', 'Vance, Warren', {v: 30}, {v: 101}, {v: 300}, {v: 850}, {v: 0, f: '-'}, '-', {v: 1952, f: '1952'}, 'USACE'],
+          ['Mayo Lake', {v: 2800}, 'Reservoir', '-', 'Person', {v: 30}, {v: 0, f: '-'}, {v: 437}, {v: 86}, {v: 0, f: '-'}, '-', {v: 0, f: '-'}, 'CPAL'],
+          ['Mountain Island Lake', {v: 3281}, 'Reservoir', '-', 'Gaston, Mecklenburg', {v: 27}, {v: 0, f: '-'}, {v: 667}, {v: 61}, {v: 8}, 'Mountain Island', {v: 1924, f: '1924'}, 'Duke'],
+          ['Nantahala Lake', {v: 1605}, 'Reservoir', 'NAN-ta-HAY-la', 'Clay, Macon', {v: 0, f: '-'}, {v: 250}, {v: 926}, {v: 43}, {v: 0, f: '-'}, '-', {v: 1942, f: '1942'}, 'NPALC'],
+          ['Lake Norman', {v: 32510}, 'Reservoir', '-', 'Catawba, Iredell, Lincoln, Mecklenburg', {v: 33.5}, {v: 110}, {v: 758}, {v: 520}, {v: 207}, 'Cornelius, Davidson, Denver, Governors Island, Huntersville, Mooresville, Sherrills Ford, Terrell, Troutman, Westport', {v: 1964, f: '1964'}, 'Duke'],
+          ['Lake Rhodhiss', {v: 3060}, 'Reservoir', 'ROAD-hiss', 'Burke, Caldwell', {v: 42}, {v: 52}, {v: 305}, {v: 90}, {v: 18}, 'Granite Falls, Morganton, Valdese', {v: 1925, f: '1925'}, 'Duke'],
+          ['Lake Santeetlah', {v: 2881}, 'Reservoir', 'san-TEET-la', 'Graham', {v: 57}, {v: 213}, {v: 1941}, {v: 76}, {v: 0, f: '-'}, 'Lake Santeetlah Township', {v: 1928, f: '1928'}, '-'],
+          ['Lake Tillery', {v: 5260}, 'Reservoir', '-', 'Montgomery, Stanly', {v: 33}, {v: 72}, {v: 278}, {v: 117.8}, {v: 8.6}, '-', {v: 1928, f: '1928'}, 'CPAL'],
+          ['W. Kerr Scott Reservoir', {v: 1475}, 'Reservoir', '- KERR - -', 'Wilkes', {v: 0, f: '-'}, {v: 177}, {v: 1054}, {v: 24}, {v: 259}, '-', {v: 1962, f: '1962'}, 'USACE'],
+          ['Lake Wylie', {v: 12139}, 'Reservoir', 'WHY-lee', 'Gaston, Mecklenburg', {v: 23}, {v: 94}, {v: 569}, {v: 325}, {v: 28}, 'Charlotte, India Hook, Steele Creek, Tega Cay', {v: 1904, f: '1904'}, 'CPC']
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('lakes'));
+
+        table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
+      }
+    </script>
+  </head>
+
+
+
+
+
+
+
+
+
+
+
+  <body>
+<div align="center" id="rivers">
+</div>
+<br>
+<hr>
+<br>
+    <div align="center" id="lakes">
+</div>
+  </body>
+</html>
