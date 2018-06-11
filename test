@@ -617,10 +617,10 @@ addFunctionOnWindowLoad(GetClock);
 <th data-tsorter="numeric">Mean Depth</th>
 <th data-tsorter="numeric">Max Depth</th>
 <th data-tsorter="numeric">Surface Elevation</th>
-<th data-tsorter="numeric">Shoreline Miles</th>
+<th data-tsorter="numeric">Shoreline Miles</td>
 <th data-tsorter="numeric">Residence Time (Days)</th>
 <th>Settlements</th>
-<th>Year</th>
+<th data-tsorter="numeric">Year</th>
 <th>Owner</th>
 </tr>
 </thead>
@@ -628,7 +628,7 @@ addFunctionOnWindowLoad(GetClock);
 <tbody>
 <tr>
 <td>Albemarle Sound</td>
-<td>403,795</td>
+<td>403795</td>
 <td>Estuarine</td>
 <td>ALBA-marr-ill</td>
 <td>Bertie, Camden, Chowan, Currituck, Dare, Pasquotank, Perquimans, Tyrrell, Washington</td>
@@ -638,117 +638,117 @@ addFunctionOnWindowLoad(GetClock);
 <td>500</td>
 <td>45</td>
 <td>Albemarle Beach, Edenton, Mackeys, Pea Ridge, Point Harbor, Powells Point</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Back Sound</td>
-<td>11,907</td>
+<td>11907</td>
 <td>Estuarine</td>
 <td>-</td>
 <td>Carteret</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
 <td>Harkers Island</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Bogue Sound</td>
-<td>24,832</td>
+<td>24832</td>
 <td>Estuarine</td>
 <td>BOAG</td>
 <td>Carteret</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
 <td>Atlantic Beach, Broad Creek, Emerald Isle, Indian Beach, Morehead City, Pine Knoll</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Core Sound</td>
-<td>69,604</td>
+<td>69604</td>
 <td>Estuarine</td>
 <td>-</td>
 <td>Carteret</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
+<td>000</td>
 <td>0</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
+<td>000</td>
 <td>Atlantic, Sealevel, Stacy</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Croatan Sound</td>
-<td>24,718</td>
+<td>24718</td>
 <td>Estuarine</td>
 <td>CROW-a-tan</td>
 <td>Dare</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
+<td>000</td>
 <td>0</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
+<td>000</td>
 <td>Manns Harvor</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Currituck Sound</td>
-<td>76,242</td>
+<td>76242</td>
 <td>Estuarine</td>
 <td>KERR-eh-TUCK</td>
 <td>Currituck, Dare</td>
 <td>5</td>
 <td>13</td>
 <td>0</td>
-<td>-</td>
+<td>000</td>
 <td>270</td>
 <td>Duck, Grandy, Harbinger, Jarvisburg</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Pamlico Sound</td>
-<td>1,155,500</td>
+<td>1155500</td>
 <td>Estuarine</td>
 <td>PAM-lih-CO</td>
 <td>Carteret, Dare, Hyde, Pamlico</td>
 <td>16</td>
 <td>24</td>
 <td>0</td>
-<td>-</td>
+<td>000</td>
 <td>330</td>
 <td>Avon, Buxton, Engelhard, Frisco, Hatteras, Middletown, Portsmouth, Ocracoke, Salvo, Stumpy Point, Waves</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Roanoke Sound</td>
-<td>28,534</td>
+<td>28534</td>
 <td>Estuarine</td>
 <td>ROW-uh-NOKE</td>
 <td>Dare</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
+<td>000</td>
 <td>Manteo, Wanchese</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Great Lake</td>
-<td>2,965</td>
+<td>2965</td>
 <td>Natural</td>
 <td>-</td>
 <td>Craven</td>
@@ -758,12 +758,12 @@ addFunctionOnWindowLoad(GetClock);
 <td>8</td>
 <td>86</td>
 <td>-</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Lake Mattamuskeet</td>
-<td>40,276</td>
+<td>40276</td>
 <td>Natural</td>
 <td>MATTA-mus-KEET</td>
 <td>Hyde</td>
@@ -773,12 +773,12 @@ addFunctionOnWindowLoad(GetClock);
 <td>56.5</td>
 <td>880</td>
 <td>New Holland</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Lake Phelps</td>
-<td>15,814</td>
+<td>15814</td>
 <td>Natural</td>
 <td>FELPS</td>
 <td>Washington, Tyrrell</td>
@@ -788,27 +788,27 @@ addFunctionOnWindowLoad(GetClock);
 <td>19</td>
 <td>983</td>
 <td>-</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Pungo Lake</td>
-<td>2,223</td>
+<td>2223</td>
 <td>Natural</td>
 <td>-</td>
 <td>Hyde, Washington</td>
 <td>17</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
+<td>000</td>
 <td>8</td>
 <td>723</td>
 <td>-</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Lake Waccamaw</td>
-<td>8,938</td>
+<td>8938</td>
 <td>Natural</td>
 <td>WAKA-mah</td>
 <td>Columbus</td>
@@ -818,12 +818,12 @@ addFunctionOnWindowLoad(GetClock);
 <td>14</td>
 <td>223</td>
 <td>Lake Waccamaw Township</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Badin Lake</td>
-<td>5,350</td>
+<td>5350</td>
 <td>Reservoir</td>
 <td>BAY-din</td>
 <td>Davidson, Montgomery, Rowan, Stanly</td>
@@ -831,14 +831,14 @@ addFunctionOnWindowLoad(GetClock);
 <td>190</td>
 <td>540</td>
 <td>116</td>
-<td>-</td>
+<td>000</td>
 <td>Badin</td>
 <td>1917</td>
 <td>Alcoa</td>
 </tr>
 <tr>
 <td>Belews Lake</td>
-<td>3,846</td>
+<td>3846</td>
 <td>Reservoir</td>
 <td>beh-LOOS</td>
 <td>Forsyth, Guilford, Rockingham, Stokes</td>
@@ -853,13 +853,13 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Lake Chatuge</td>
-<td>7,200</td>
+<td>7200</td>
 <td>Reservoir</td>
 <td>sha-TOOG</td>
 <td>Clay</td>
 <td>46</td>
 <td>145</td>
-<td>1,923</td>
+<td>1923</td>
 <td>69</td>
 <td>314</td>
 <td>-</td>
@@ -868,12 +868,12 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Falls Lake</td>
-<td>12,410</td>
+<td>12410</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Durham, Granville, Wake</td>
 <td>108</td>
-<td>-</td>
+<td>000</td>
 <td>243</td>
 <td>111</td>
 <td>692</td>
@@ -883,22 +883,22 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Fontana Lake</td>
-<td>10,230</td>
+<td>10230</td>
 <td>Reservoir</td>
 <td>fawn-TAN-a</td>
 <td>Graham, Swain</td>
 <td>135</td>
 <td>440</td>
-<td>1,707</td>
+<td>1707</td>
 <td>238</td>
-<td>-</td>
+<td>000</td>
 <td>Fontana Dam</td>
 <td>1944</td>
 <td>TVA</td>
 </tr>
 <tr>
 <td>Lake Gaston</td>
-<td>20,300</td>
+<td>20300</td>
 <td>Reservoir</td>
 <td>GAS-tunn</td>
 <td>Halifax, Northampton, Warren</td>
@@ -906,29 +906,29 @@ addFunctionOnWindowLoad(GetClock);
 <td>96</td>
 <td>201</td>
 <td>350</td>
-<td>-</td>
+<td>000</td>
 <td>Elams, Henrico</td>
 <td>1963</td>
 <td>Dominion</td>
 </tr>
 <tr>
 <td>Lake Glenville</td>
-<td>1,470</td>
+<td>1470</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Jackson</td>
-<td>-</td>
+<td>000</td>
 <td>121</td>
-<td>3,492</td>
+<td>3492</td>
 <td>26</td>
-<td>-</td>
+<td>000</td>
 <td>Erastus, Glenville</td>
 <td>1941</td>
 <td>Alcoa</td>
 </tr>
 <tr>
 <td>Harris Lake</td>
-<td>4,100</td>
+<td>4100</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Chatham, Wake</td>
@@ -943,7 +943,7 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Lake Hickory</td>
-<td>4,223</td>
+<td>4223</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Alexander, Burke, Catawba, Caldwell</td>
@@ -958,7 +958,7 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>High Rock Lake</td>
-<td>15,180</td>
+<td>15180</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Davidson, Rowan</td>
@@ -973,13 +973,13 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Lake Hiwassee</td>
-<td>6,275</td>
+<td>6275</td>
 <td>Reservoir</td>
 <td>hi-WASS-ee</td>
 <td>Cherokee</td>
 <td>142</td>
 <td>309</td>
-<td>1,476</td>
+<td>1476</td>
 <td>163</td>
 <td>81</td>
 <td>-</td>
@@ -988,7 +988,7 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Hyco Lake</td>
-<td>3,750</td>
+<td>3750</td>
 <td>Reservoir</td>
 <td>HIGH-co</td>
 <td>Caswell, Person</td>
@@ -996,20 +996,20 @@ addFunctionOnWindowLoad(GetClock);
 <td>30</td>
 <td>412</td>
 <td>160</td>
-<td>-</td>
+<td>000</td>
 <td>Williamsville</td>
 <td>1965</td>
 <td>CPAL</td>
 </tr>
 <tr>
 <td>Lake James</td>
-<td>6,812</td>
+<td>6812</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Burke, McDowell</td>
 <td>65</td>
 <td>150</td>
-<td>1,211</td>
+<td>1211</td>
 <td>150</td>
 <td>176</td>
 <td>Nebo</td>
@@ -1018,7 +1018,7 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Jordan Lake</td>
-<td>13,940</td>
+<td>13940</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Chatham, Durham</td>
@@ -1033,7 +1033,7 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Kerr Lake</td>
-<td>48,900</td>
+<td>48900</td>
 <td>Reservoir</td>
 <td>CAR</td>
 <td>Vance, Warren</td>
@@ -1041,34 +1041,34 @@ addFunctionOnWindowLoad(GetClock);
 <td>101</td>
 <td>300</td>
 <td>850</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 <td>1952</td>
 <td>USACE</td>
 </tr>
 <tr>
 <td>Mayo Lake</td>
-<td>2,800</td>
+<td>2800</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Person</td>
 <td>30</td>
-<td>-</td>
+<td>000</td>
 <td>437</td>
 <td>86</td>
+<td>000</td>
 <td>-</td>
-<td>-</td>
-<td>-</td>
+<td>000</td>
 <td>CPAL</td>
 </tr>
 <tr>
 <td>Mountain Island Lake</td>
-<td>3,281</td>
+<td>3281</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Gaston, Mecklenburg</td>
 <td>27</td>
-<td>-</td>
+<td>000</td>
 <td>667</td>
 <td>61</td>
 <td>8</td>
@@ -1078,22 +1078,22 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Nantahala Lake</td>
-<td>1,605</td>
+<td>1605</td>
 <td>Reservoir</td>
 <td>NAN-ta-HAY-la</td>
 <td>Clay, Macon</td>
-<td>-</td>
+<td>000</td>
 <td>250</td>
 <td>926</td>
 <td>43</td>
-<td>-</td>
+<td>000</td>
 <td>-</td>
 <td>1942</td>
 <td>NPALC</td>
 </tr>
 <tr>
 <td>Lake Norman</td>
-<td>32,510</td>
+<td>32510</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Catawba, Iredell, Lincoln, Mecklenburg</td>
@@ -1108,7 +1108,7 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Lake Rhodhiss</td>
-<td>3,060</td>
+<td>3060</td>
 <td>Reservoir</td>
 <td>ROAD-hiss</td>
 <td>Burke, Caldwell</td>
@@ -1123,22 +1123,22 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Lake Santeetlah</td>
-<td>2,881</td>
+<td>2881</td>
 <td>Reservoir</td>
 <td>san-TEET-la</td>
 <td>Graham</td>
 <td>57</td>
 <td>213</td>
-<td>1,941</td>
+<td>1941</td>
 <td>76</td>
-<td>-</td>
+<td>000</td>
 <td>Lake Santeetlah Township</td>
 <td>1928</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Lake Tillery</td>
-<td>5,260</td>
+<td>5260</td>
 <td>Reservoir</td>
 <td>-</td>
 <td>Montgomery, Stanly</td>
@@ -1153,13 +1153,13 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>W. Kerr Scott Reservoir</td>
-<td>1,475</td>
+<td>1475</td>
 <td>Reservoir</td>
 <td>- KERR - -</td>
 <td>Wilkes</td>
-<td>-</td>
+<td>000</td>
 <td>177</td>
-<td>1,054</td>
+<td>1054</td>
 <td>24</td>
 <td>259</td>
 <td>-</td>
@@ -1168,7 +1168,7 @@ addFunctionOnWindowLoad(GetClock);
 </tr>
 <tr>
 <td>Lake Wylie</td>
-<td>12,139</td>
+<td>12139</td>
 <td>Reservoir</td>
 <td>WHY-lee</td>
 <td>Gaston, Mecklenburg</td>
@@ -1185,8 +1185,7 @@ addFunctionOnWindowLoad(GetClock);
 
 </div>
 
+</body>
 
 
-
-  </body>
 </html>
