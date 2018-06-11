@@ -1,0 +1,1165 @@
+<html>
+
+<head>
+
+
+
+<!-- Reference to tables.css script in Hostinger File Manager -->
+    <link rel="stylesheet" type="text/css" href="https://www.andrewswxcenter.com/files/style.css">
+
+    <script src="tsorter.min.js" type="text/javascript"></script>
+
+    <script>
+
+function init() {
+    var sorter1 = tsorter.create('rivers');
+    var sorter2 = tsorter.create('lakes');
+}
+    
+window.onload = init;
+
+    </script>
+
+</head>
+
+
+
+
+
+<body>
+
+<center><img src="https://1.bp.blogspot.com/-BCGnPV41lxw/WiXALmgsRSI/AAAAAAAACf0/AQt5W_vISSgRk3A1oPP2pPQaeKHFT7mVgCLcBGAs/s1600/hydro_final.jpg" height="auto" width="97%"></center>
+
+<br>
+<hr>
+<br>
+
+<div>
+
+<table id="rivers">
+<thead>
+<tr>
+<th>River Name</th>
+<th data-tsorter="numeric">Approximate Length Within NC (miles)</th>
+<th>Pronunciation</th>
+<th>Cities</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Alligator</td>
+<td>46.7</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Ararat</td>
+<td>33</td>
+<td>AIR-a-rat</td>
+<td>Mount Airy</td>
+</tr>
+<tr>
+<td>Bay</td>
+<td>18.2</td>
+<td>-</td>
+<td>Bayboro, Stonewall, Vandemere</td>
+</tr>
+<tr>
+<td>Black</td>
+<td>50</td>
+<td>-</td>
+<td>Ingold, Ivanhoe</td>
+</tr>
+<tr>
+<td>Broad</td>
+<td>52.4</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Brunswick</td>
+<td>6</td>
+<td>-</td>
+<td>Navassa</td>
+</tr>
+<tr>
+<td>Calabash</td>
+<td>7.3</td>
+<td>CALA-bash</td>
+<td>Calabash</td>
+</tr>
+<tr>
+<td>Cane</td>
+<td>36.4</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Cape Fear</td>
+<td>202</td>
+<td>-</td>
+<td>Lillington, Erwin, Fayetteville, Elizabethtown, Wilmington, Bald Head Island</td>
+</tr>
+<tr>
+<td>Cashie</td>
+<td>55</td>
+<td>kuh-SHY</td>
+<td>Windsor</td>
+</tr>
+<tr>
+<td>Catawba</td>
+<td>149.4</td>
+<td>ka-TAW-ba</td>
+<td>Old Fort, Morganton, Hickory, Mount Holly, Belmont</td>
+</tr>
+<tr>
+<td>Chattooga</td>
+<td>10.7</td>
+<td>cha-TOO-ga</td>
+<td>Cashiers</td>
+</tr>
+<tr>
+<td>Cheoah</td>
+<td>20</td>
+<td>CHI-oh-wa</td>
+<td>Robbinsville</td>
+</tr>
+<tr>
+<td>Chowan</td>
+<td>48.3</td>
+<td>cho-WAHN</td>
+<td>Winton</td>
+</tr>
+<tr>
+<td>Cullasaja</td>
+<td>5</td>
+<td>COOL-uh-SAY-ja</td>
+<td>Franklin, Highlands</td>
+</tr>
+<tr>
+<td>Dan</td>
+<td>98.7</td>
+<td>-</td>
+<td>Danbury, Madison, Eden</td>
+</tr>
+<tr>
+<td>Davidson</td>
+<td>10.6</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Deep</td>
+<td>125</td>
+<td>-</td>
+<td>Randleman, Franklinville, Ramseur</td>
+</tr>
+<tr>
+<td>Elk</td>
+<td>14.7</td>
+<td>-</td>
+<td>Banner Elk</td>
+</tr>
+<tr>
+<td>Eno</td>
+<td>40</td>
+<td>-</td>
+<td>Hillsborough, North Durham</td>
+</tr>
+<tr>
+<td>First Broad</td>
+<td>60</td>
+<td>-</td>
+<td>Lawndale, Shelby</td>
+</tr>
+<tr>
+<td>Fisher</td>
+<td>42.2</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Flat</td>
+<td>5.7</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>French Broad</td>
+<td>114.2</td>
+<td>-</td>
+<td>Hot Springs, Marshall, Asheville, Mills River, Etowah, Brevard</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>52</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Haw</td>
+<td>110</td>
+<td>HAH</td>
+<td>Altamahaw-Ossipee, Burlington, Graham, Saxapahaw</td>
+</tr>
+<tr>
+<td>Hiwassee</td>
+<td>57.7</td>
+<td>high-WAHS-ee</td>
+<td>Murphy</td>
+</tr>
+<tr>
+<td>Horsepasture</td>
+<td>15.1</td>
+<td>HORSE-pass-chur</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hungry</td>
+<td>8.5</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hyco</td>
+<td>4.9</td>
+<td>HIGH-co</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Johns</td>
+<td>27.3</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Linville</td>
+<td>30</td>
+<td>LINN-vill</td>
+<td>Linville</td>
+</tr>
+<tr>
+<td>Little (Perquimans/Pasquotank Counties)</td>
+<td>19.9</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Little (Moore/Cumberland/Harnett Counties)</td>
+<td>67.7</td>
+<td>-</td>
+<td>Whispering Pines, Fort Bragg</td>
+</tr>
+<tr>
+<td>Little (Durham County)</td>
+<td>12.6</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Little (Transylvania County)</td>
+<td>19</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Little (Burke County)</td>
+<td>5.1</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Little (Franklin/Wake/Johnston/Wayne Counties)</td>
+<td>82.8</td>
+<td>-</td>
+<td>Youngsville, Goldsboro</td>
+</tr>
+<tr>
+<td>Little (Randolph/Montgomery/Richmond Counties)</td>
+<td>60</td>
+<td>-</td>
+<td>Asheboro</td>
+</tr>
+<tr>
+<td>Little (Alleghany County)</td>
+<td>30.6</td>
+<td>-</td>
+<td>Sparta</td>
+</tr>
+<tr>
+<td>Little Tennessee</td>
+<td>48.4</td>
+<td>-</td>
+<td>Franklin</td>
+</tr>
+<tr>
+<td>Lockwood Folly</td>
+<td>14.2</td>
+<td>LOCK-wood-FA-lee</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Lumber</td>
+<td>80</td>
+<td>LUM-burr</td>
+<td>Pembroke, Lumberton, Boardman, Fair Bluff</td>
+</tr>
+<tr>
+<td>Meherrin</td>
+<td>45.6</td>
+<td>ma-HAIR-in</td>
+<td>Murfreesboro</td>
+</tr>
+<tr>
+<td>Mills</td>
+<td>12.1</td>
+<td>-</td>
+<td>Mills River</td>
+</tr>
+<tr>
+<td>Mitchell</td>
+<td>21.5</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Nantahala</td>
+<td>40</td>
+<td>NAN-ta-HAY-la</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Neuse</td>
+<td>275</td>
+<td>NOOSE</td>
+<td>Smithfield, Goldsboro, Kinston, New Bern</td>
+</tr>
+<tr>
+<td>New (Northwestern NC)</td>
+<td>4.5</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>New (Southeastern NC)</td>
+<td>50</td>
+<td>-</td>
+<td>Jacksonville</td>
+</tr>
+<tr>
+<td>Newport</td>
+<td>12</td>
+<td>-</td>
+<td>Newport</td>
+</tr>
+<tr>
+<td>Nolichucky</td>
+<td>9.9</td>
+<td>NOLA-chuck-ee</td>
+<td>-</td>
+</tr>
+<tr>
+<td>North</td>
+<td>18</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>North Toe</td>
+<td>63.3</td>
+<td>-</td>
+<td>Spruce Pine</td>
+</tr>
+<tr>
+<td>Northeast Cape Fear</td>
+<td>130</td>
+<td>-</td>
+<td>Castle Hayne, Wilmington</td>
+</tr>
+<tr>
+<td>Northwest</td>
+<td>18</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Oconaluftee</td>
+<td>17.9</td>
+<td>o-CON-a-LUFF-tee</td>
+<td>Cherokee</td>
+</tr>
+<tr>
+<td>Pamlico</td>
+<td>30.5</td>
+<td>PAM-li-co</td>
+<td>Washington, Aurora</td>
+</tr>
+<tr>
+<td>Pasquotank</td>
+<td>40.6</td>
+<td>PASS-kwo-tank</td>
+<td>Elizabeth City</td>
+</tr>
+<tr>
+<td>Pee Dee</td>
+<td>57.1</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Perquimans</td>
+<td>30.7</td>
+<td>per-KWI-mens</td>
+<td>Winfall, Hertford</td>
+</tr>
+<tr>
+<td>Pigeon</td>
+<td>55.6</td>
+<td>PI-jun</td>
+<td>Clyde, Canton</td>
+</tr>
+<tr>
+<td>Pungo</td>
+<td>30.6</td>
+<td>PUN-go</td>
+<td>Belhaven</td>
+</tr>
+<tr>
+<td>Reddies</td>
+<td>15.5</td>
+<td>RED-ees</td>
+<td>North Wilkesboro</td>
+</tr>
+<tr>
+<td>Roanoke</td>
+<td>130</td>
+<td>ROW-a-noke</td>
+<td>Roanoke Rapids, Halifax, Williamston, Jamesville, Plymouth</td>
+</tr>
+<tr>
+<td>Roaring</td>
+<td>11.9</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Rocky</td>
+<td>95</td>
+<td>-</td>
+<td>Mooresville, Concord, Fairview</td>
+</tr>
+<tr>
+<td>Scuppernog</td>
+<td>20.2</td>
+<td>SCUP-er-nog</td>
+<td>Columbia</td>
+</tr>
+<tr>
+<td>Shalotte</td>
+<td>7.2</td>
+<td>sha-LOAT</td>
+<td>Shalotte</td>
+</tr>
+<tr>
+<td>Smith</td>
+<td>5.1</td>
+<td>-</td>
+<td>Eden</td>
+</tr>
+<tr>
+<td>South</td>
+<td>84</td>
+<td>-</td>
+<td>Falcon, Autryville</td>
+</tr>
+<tr>
+<td>South Fork (Catawba)</td>
+<td>48.5</td>
+<td>-</td>
+<td>Lincolnton, High Shoals, McAdenville, Cramerton</td>
+</tr>
+<tr>
+<td>South Toe</td>
+<td>32.5</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Swannanoa</td>
+<td>22</td>
+<td>swan-na-NO-uh</td>
+<td>Asheville, Black Mountain</td>
+</tr>
+<tr>
+<td>Tar</td>
+<td>215</td>
+<td>-</td>
+<td>Louisburg, Rocky Mount, Tarboro, Princeville, Greenville</td>
+</tr>
+<tr>
+<td>Toxaway</td>
+<td>7.5</td>
+<td>TOCKS-away</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Trent</td>
+<td>100</td>
+<td>-</td>
+<td>Trenton, Pollocksville, River Bend, Trent Woods, New Bern</td>
+</tr>
+<tr>
+<td>Tuckasegee</td>
+<td>60</td>
+<td>tuck-a-SEE-jee</td>
+<td>Cullowhee, Dillsboro, Bryson City</td>
+</tr>
+<tr>
+<td>Uwharrie</td>
+<td>60</td>
+<td>you-WARR-ee</td>
+<td>Trinity</td>
+</tr>
+<tr>
+<td>Valley</td>
+<td>40</td>
+<td>-</td>
+<td>Topton, Andrews, Marble, Murphy</td>
+</tr>
+<tr>
+<td>Waccamaw</td>
+<td>44.6</td>
+<td>WOK-a-ma</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Watauga</td>
+<td>25.7</td>
+<td>wa-TAW-ga</td>
+<td>-</td>
+</tr>
+<tr>
+<td>White Oak</td>
+<td>40</td>
+<td>-</td>
+<td>Swansboro</td>
+</tr>
+<tr>
+<td>Wiccacon</td>
+<td>21</td>
+<td>WICK-ca-conn</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Yadkin</td>
+<td>215</td>
+<td>YAD-ken</td>
+<td>Wilkesboro, North Wilkesboro, Ronda, Elkin-Jonesville, Clemmons</td>
+</tr>
+</tbody></table>
+
+</div>
+
+
+
+
+
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+
+
+
+
+<div>
+
+<table id="lakes">
+
+<thead>
+<tr>
+<th>Name</th>
+<th data-tsorter="numeric">Acreage</th>
+<th>Type</th>
+<th>Pronunciation</th>
+<th>Counties</th>
+<th data-tsorter="numeric">Mean Depth</th>
+<th data-tsorter="numeric">Max Depth</th>
+<th data-tsorter="numeric">Surface Elevation</th>
+<th data-tsorter="numeric">Shoreline Miles</th>
+<th data-tsorter="numeric">Residence Time (Days)</th>
+<th>Settlements</th>
+<th data-tsorter="numeric">Year</th>
+<th>Owner</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Albemarle Sound</td>
+<td>403,795</td>
+<td>Estuarine</td>
+<td>ALBA-marr-ill</td>
+<td>Bertie, Camden, Chowan, Currituck, Dare, Pasquotank, Perquimans, Tyrrell, Washington</td>
+<td>15</td>
+<td>18</td>
+<td>0</td>
+<td>500</td>
+<td>45</td>
+<td>Albemarle Beach, Edenton, Mackeys, Pea Ridge, Point Harbor, Powells Point</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Back Sound</td>
+<td>11,907</td>
+<td>Estuarine</td>
+<td>-</td>
+<td>Carteret</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>Harkers Island</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Bogue Sound</td>
+<td>24,832</td>
+<td>Estuarine</td>
+<td>BOAG</td>
+<td>Carteret</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>Atlantic Beach, Broad Creek, Emerald Isle, Indian Beach, Morehead City, Pine Knoll</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Core Sound</td>
+<td>69,604</td>
+<td>Estuarine</td>
+<td>-</td>
+<td>Carteret</td>
+<td>-</td>
+<td>-</td>
+<td>0</td>
+<td>-</td>
+<td>-</td>
+<td>Atlantic, Sealevel, Stacy</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Croatan Sound</td>
+<td>24,718</td>
+<td>Estuarine</td>
+<td>CROW-a-tan</td>
+<td>Dare</td>
+<td>-</td>
+<td>-</td>
+<td>0</td>
+<td>-</td>
+<td>-</td>
+<td>Manns Harvor</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Currituck Sound</td>
+<td>76,242</td>
+<td>Estuarine</td>
+<td>KERR-eh-TUCK</td>
+<td>Currituck, Dare</td>
+<td>5</td>
+<td>13</td>
+<td>0</td>
+<td>-</td>
+<td>270</td>
+<td>Duck, Grandy, Harbinger, Jarvisburg</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Pamlico Sound</td>
+<td>1,155,500</td>
+<td>Estuarine</td>
+<td>PAM-lih-CO</td>
+<td>Carteret, Dare, Hyde, Pamlico</td>
+<td>16</td>
+<td>24</td>
+<td>0</td>
+<td>-</td>
+<td>330</td>
+<td>Avon, Buxton, Engelhard, Frisco, Hatteras, Middletown, Portsmouth, Ocracoke, Salvo, Stumpy Point, Waves</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Roanoke Sound</td>
+<td>28,534</td>
+<td>Estuarine</td>
+<td>ROW-uh-NOKE</td>
+<td>Dare</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>Manteo, Wanchese</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Great Lake</td>
+<td>2,965</td>
+<td>Natural</td>
+<td>-</td>
+<td>Craven</td>
+<td>9</td>
+<td>0</td>
+<td>23</td>
+<td>8</td>
+<td>86</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Lake Mattamuskeet</td>
+<td>40,276</td>
+<td>Natural</td>
+<td>MATTA-mus-KEET</td>
+<td>Hyde</td>
+<td>2.5</td>
+<td>5</td>
+<td>3</td>
+<td>56.5</td>
+<td>880</td>
+<td>New Holland</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Lake Phelps</td>
+<td>15,814</td>
+<td>Natural</td>
+<td>FELPS</td>
+<td>Washington, Tyrrell</td>
+<td>4</td>
+<td>9</td>
+<td>7</td>
+<td>19</td>
+<td>983</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Pungo Lake</td>
+<td>2,223</td>
+<td>Natural</td>
+<td>-</td>
+<td>Hyde, Washington</td>
+<td>17</td>
+<td>-</td>
+<td>-</td>
+<td>8</td>
+<td>723</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Lake Waccamaw</td>
+<td>8,938</td>
+<td>Natural</td>
+<td>WAKA-mah</td>
+<td>Columbus</td>
+<td>7.5</td>
+<td>11</td>
+<td>43</td>
+<td>14</td>
+<td>223</td>
+<td>Lake Waccamaw Township</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Badin Lake</td>
+<td>5,350</td>
+<td>Reservoir</td>
+<td>BAY-din</td>
+<td>Davidson, Montgomery, Rowan, Stanly</td>
+<td>90</td>
+<td>190</td>
+<td>540</td>
+<td>116</td>
+<td>-</td>
+<td>Badin</td>
+<td>1917</td>
+<td>Alcoa</td>
+</tr>
+<tr>
+<td>Belews Lake</td>
+<td>3,846</td>
+<td>Reservoir</td>
+<td>beh-LOOS</td>
+<td>Forsyth, Guilford, Rockingham, Stokes</td>
+<td>35</td>
+<td>130</td>
+<td>732</td>
+<td>37</td>
+<td>588</td>
+<td>Belews Creek</td>
+<td>1973</td>
+<td>Duke</td>
+</tr>
+<tr>
+<td>Lake Chatuge</td>
+<td>7,200</td>
+<td>Reservoir</td>
+<td>sha-TOOG</td>
+<td>Clay</td>
+<td>46</td>
+<td>145</td>
+<td>1,923</td>
+<td>69</td>
+<td>314</td>
+<td>-</td>
+<td>1942</td>
+<td>TVA</td>
+</tr>
+<tr>
+<td>Falls Lake</td>
+<td>12,410</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Durham, Granville, Wake</td>
+<td>108</td>
+<td>-</td>
+<td>243</td>
+<td>111</td>
+<td>692</td>
+<td>Falls, New Light, Stony Hill</td>
+<td>1983</td>
+<td>USACE</td>
+</tr>
+<tr>
+<td>Fontana Lake</td>
+<td>10,230</td>
+<td>Reservoir</td>
+<td>fawn-TAN-a</td>
+<td>Graham, Swain</td>
+<td>135</td>
+<td>440</td>
+<td>1,707</td>
+<td>238</td>
+<td>-</td>
+<td>Fontana Dam</td>
+<td>1944</td>
+<td>TVA</td>
+</tr>
+<tr>
+<td>Lake Gaston</td>
+<td>20,300</td>
+<td>Reservoir</td>
+<td>GAS-tunn</td>
+<td>Halifax, Northampton, Warren</td>
+<td>40</td>
+<td>96</td>
+<td>201</td>
+<td>350</td>
+<td>-</td>
+<td>Elams, Henrico</td>
+<td>1963</td>
+<td>Dominion</td>
+</tr>
+<tr>
+<td>Lake Glenville</td>
+<td>1,470</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Jackson</td>
+<td>-</td>
+<td>121</td>
+<td>3,492</td>
+<td>26</td>
+<td>-</td>
+<td>Erastus, Glenville</td>
+<td>1941</td>
+<td>Alcoa</td>
+</tr>
+<tr>
+<td>Harris Lake</td>
+<td>4,100</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Chatham, Wake</td>
+<td>17</td>
+<td>59</td>
+<td>230</td>
+<td>43</td>
+<td>414</td>
+<td>-</td>
+<td>1983</td>
+<td>CPAL</td>
+</tr>
+<tr>
+<td>Lake Hickory</td>
+<td>4,223</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Alexander, Burke, Catawba, Caldwell</td>
+<td>40</td>
+<td>101</td>
+<td>939</td>
+<td>53</td>
+<td>29</td>
+<td>Bethlehem, Hickory, Northlakes</td>
+<td>1927</td>
+<td>Duke</td>
+</tr>
+<tr>
+<td>High Rock Lake</td>
+<td>15,180</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Davidson, Rowan</td>
+<td>30</td>
+<td>52</td>
+<td>614</td>
+<td>365</td>
+<td>26</td>
+<td>Cotton Grove, Feezor, Southmont</td>
+<td>1928</td>
+<td>Alcoa</td>
+</tr>
+<tr>
+<td>Lake Hiwassee</td>
+<td>6,275</td>
+<td>Reservoir</td>
+<td>hi-WASS-ee</td>
+<td>Cherokee</td>
+<td>142</td>
+<td>309</td>
+<td>1,476</td>
+<td>163</td>
+<td>81</td>
+<td>-</td>
+<td>1940</td>
+<td>TVA</td>
+</tr>
+<tr>
+<td>Hyco Lake</td>
+<td>3,750</td>
+<td>Reservoir</td>
+<td>HIGH-co</td>
+<td>Caswell, Person</td>
+<td>21</td>
+<td>30</td>
+<td>412</td>
+<td>160</td>
+<td>-</td>
+<td>Williamsville</td>
+<td>1965</td>
+<td>CPAL</td>
+</tr>
+<tr>
+<td>Lake James</td>
+<td>6,812</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Burke, McDowell</td>
+<td>65</td>
+<td>150</td>
+<td>1,211</td>
+<td>150</td>
+<td>176</td>
+<td>Nebo</td>
+<td>1923</td>
+<td>Duke</td>
+</tr>
+<tr>
+<td>Jordan Lake</td>
+<td>13,940</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Chatham, Durham</td>
+<td>14</td>
+<td>38</td>
+<td>224</td>
+<td>83</td>
+<td>660</td>
+<td>Bells, Seaforth, Wilsonville</td>
+<td>1982</td>
+<td>USACE</td>
+</tr>
+<tr>
+<td>Kerr Lake</td>
+<td>48,900</td>
+<td>Reservoir</td>
+<td>CAR</td>
+<td>Vance, Warren</td>
+<td>30</td>
+<td>101</td>
+<td>300</td>
+<td>850</td>
+<td>-</td>
+<td>-</td>
+<td>1952</td>
+<td>USACE</td>
+</tr>
+<tr>
+<td>Mayo Lake</td>
+<td>2,800</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Person</td>
+<td>30</td>
+<td>-</td>
+<td>437</td>
+<td>86</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>CPAL</td>
+</tr>
+<tr>
+<td>Mountain Island Lake</td>
+<td>3,281</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Gaston, Mecklenburg</td>
+<td>27</td>
+<td>-</td>
+<td>667</td>
+<td>61</td>
+<td>8</td>
+<td>Mountain Island</td>
+<td>1924</td>
+<td>Duke</td>
+</tr>
+<tr>
+<td>Nantahala Lake</td>
+<td>1,605</td>
+<td>Reservoir</td>
+<td>NAN-ta-HAY-la</td>
+<td>Clay, Macon</td>
+<td>-</td>
+<td>250</td>
+<td>926</td>
+<td>43</td>
+<td>-</td>
+<td>-</td>
+<td>1942</td>
+<td>NPALC</td>
+</tr>
+<tr>
+<td>Lake Norman</td>
+<td>32,510</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Catawba, Iredell, Lincoln, Mecklenburg</td>
+<td>33.5</td>
+<td>110</td>
+<td>758</td>
+<td>520</td>
+<td>207</td>
+<td>Cornelius, Davidson, Denver, Governors Island, Huntersville, Mooresville, Sherrills Ford, Terrell, Troutman, Westport</td>
+<td>1964</td>
+<td>Duke</td>
+</tr>
+<tr>
+<td>Lake Rhodhiss</td>
+<td>3,060</td>
+<td>Reservoir</td>
+<td>ROAD-hiss</td>
+<td>Burke, Caldwell</td>
+<td>42</td>
+<td>52</td>
+<td>305</td>
+<td>90</td>
+<td>18</td>
+<td>Granite Falls, Morganton, Valdese</td>
+<td>1925</td>
+<td>Duke</td>
+</tr>
+<tr>
+<td>Lake Santeetlah</td>
+<td>2,881</td>
+<td>Reservoir</td>
+<td>san-TEET-la</td>
+<td>Graham</td>
+<td>57</td>
+<td>213</td>
+<td>1,941</td>
+<td>76</td>
+<td>-</td>
+<td>Lake Santeetlah Township</td>
+<td>1928</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Lake Tillery</td>
+<td>5,260</td>
+<td>Reservoir</td>
+<td>-</td>
+<td>Montgomery, Stanly</td>
+<td>33</td>
+<td>72</td>
+<td>278</td>
+<td>117.8</td>
+<td>8.6</td>
+<td>-</td>
+<td>1928</td>
+<td>CPAL</td>
+</tr>
+<tr>
+<td>W. Kerr Scott Reservoir</td>
+<td>1,475</td>
+<td>Reservoir</td>
+<td>- KERR - -</td>
+<td>Wilkes</td>
+<td>-</td>
+<td>177</td>
+<td>1,054</td>
+<td>24</td>
+<td>259</td>
+<td>-</td>
+<td>1962</td>
+<td>USACE</td>
+</tr>
+<tr>
+<td>Lake Wylie</td>
+<td>12,139</td>
+<td>Reservoir</td>
+<td>WHY-lee</td>
+<td>Gaston, Mecklenburg</td>
+<td>23</td>
+<td>94</td>
+<td>569</td>
+<td>325</td>
+<td>28</td>
+<td>Charlotte, India Hook, Steele Creek, Tega Cay</td>
+<td>1904</td>
+<td>CPC</td>
+</tr>
+</tbody></table>
+
+</div>
+
+
+
+
+  </body>
+</html>
