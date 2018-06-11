@@ -15,8 +15,35 @@ function init() {
     var sorter1 = tsorter.create('rivers');
     var sorter2 = tsorter.create('lakes');
 }
-    
-window.onload = init;
+
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+function GetClock(){
+var tzOffset = 0;
+var d=new Date();
+var dx=d.toGMTString();
+dx=dx.substr(0,dx.length -3);
+d.setTime(Date.parse(dx))
+d.setHours(d.getHours()+tzOffset);
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+if(nyear<1000) nyear+=1900;
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+"";
+}
+
+var addFunctionOnWindowLoad = function(callback){
+      if(window.addEventListener){
+          window.addEventListener('load',callback,false);
+      }else{
+          window.attachEvent('onload',callback);
+      }
+}
+
+addFunctionOnWindowLoad(init);
+addFunctionOnWindowLoad(GetClock);
 
     </script>
 
@@ -36,7 +63,7 @@ window.onload = init;
 
 <div>
 
-<table id="rivers">
+<table id="rivers" class="rivers">
 <thead>
 <tr>
 <th>River Name</th>
@@ -578,12 +605,12 @@ window.onload = init;
 
 <div>
 
-<table id="lakes">
+<table id="lakes"  class="lakes">
 
 <thead>
 <tr>
 <th>Name</th>
-<th data-tsorter="numeric">Acreage</th>
+<th>Acreage</th>
 <th>Type</th>
 <th>Pronunciation</th>
 <th>Counties</th>
@@ -593,7 +620,7 @@ window.onload = init;
 <th data-tsorter="numeric">Shoreline Miles</th>
 <th data-tsorter="numeric">Residence Time (Days)</th>
 <th>Settlements</th>
-<th data-tsorter="numeric">Year</th>
+<th>Year</th>
 <th>Owner</th>
 </tr>
 </thead>
